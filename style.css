@@ -143,6 +143,8 @@ button {
 }
 
 .footer {
-    padding: 20px 200px;
+    padding: 30px 200px;
     background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
 }
