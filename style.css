@@ -62,8 +62,9 @@ a {
 button {
     background-color: #3882F6;
     width: 80px;
+    height: 30px;
     border-radius: 5px;
-    border: 2px solid #3882F6;
+    border: 1px solid #E5E7EB;
     color: #E5E7EB;
     padding: 5px;
     font-weight: bold;
@@ -125,8 +126,20 @@ button {
 }
 
 .fourth-content {
-    padding: 20px 200px;
-    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin: 150px 200px;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
 }
 
 .footer {
